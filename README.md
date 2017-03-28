@@ -1,4 +1,4 @@
 look at 
-src/test/java/EInvoiceSampleApplyApplicationTests.java
+e-invoice-sample-apply/src/test/java/EInvoiceSampleApplyApplicationTests.java
 and 
-src/main/resources/application.properties
+e-invoice-sample-apply/src/main/resources/application.properties
