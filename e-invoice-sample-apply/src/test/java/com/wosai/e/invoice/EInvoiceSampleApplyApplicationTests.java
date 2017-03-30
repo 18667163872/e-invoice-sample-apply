@@ -31,7 +31,7 @@ public class EInvoiceSampleApplyApplicationTests {
 		
 		String url = qRCodeService.generatorQRCodeURL(InvoiceApply.getInstance()
 				.setChannel("alipay")
-				.setStore_sn("2200000011")
+				.setStore_sn("3679")
 				.setBiz_no("22000000012")
 				.setBiz_time(Calendar.getInstance().getTimeInMillis()/1000)
 				.setAmount(10000l)

@@ -32,7 +32,7 @@ public class SignUtil {
 		int i=0;
 		while(it.hasNext()){
 			Entry<String, Object> entry = it.next();
-			items[i] = String.format("[0]=[1]", entry.getValue(),entry.getKey());
+			items[i] = String.format("%1$s=%2$s", entry.getValue(),entry.getKey());
 			i++;
 		}
 		//排序
